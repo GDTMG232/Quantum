@@ -93,8 +93,6 @@ small {
 #footer {
     border-radius: 20px;
     opacity: 0.4;
-    position: absolute;
-    bottom: 0px;
     font-family: "Arial";
     height: fit-content;
     padding: 20px;
@@ -104,8 +102,7 @@ small {
 }
 
 #footertext {
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top: 0px
 }
