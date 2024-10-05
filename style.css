@@ -4,7 +4,6 @@ body, html {
 }
 
 #icon {
-
     height: 70px;
     border-radius: 50%;
 }
@@ -105,4 +104,15 @@ small {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+code {
+    font-family: 'Courier New';
+    background-color: #0008;
+    border-radius: 3px;
+    border: 2px solid #fff2;
+}
+
+underline {
+    text-decoration: underline;
 }
